@@ -1,7 +1,9 @@
 .jumbotron
-  %h1='Niveles de servicio INE'
+  %h3='Niveles de servicio INE | Administación'
 
-.container
-  .row
-    .col-lg-2
-      ='Opciones de menu'
+.jumbotron
+  =link_to 'Carga de tickets', root_path, :class => 'btn btn-primary'
+  =link_to 'Tickets activos', root_path, :class => 'btn btn-primary'
+  =link_to 'Catalogo de categorias', root_path, :class => 'btn btn-primary'
+  =link_to 'Costos de PS', root_path, :class => 'btn btn-primary'
+  =link_to 'Volumetrias', root_path, :class => 'btn btn-primary'
